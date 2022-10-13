@@ -2,6 +2,8 @@
 
 <h2>Projeto de Controle de Peças para o Curso de Manutenção de Computadores no Pão dos Pobres. José Miranda Neto @2022</h2>
 
+Usuario/Senha: admin
+
 <H2>TELA DE LOGIN</H2>
 <img src="https://uploaddeimagens.com.br/images/004/058/884/original/Captura_de_tela_2022-10-13_012024.png?1665634869" alt="Menu">
 
