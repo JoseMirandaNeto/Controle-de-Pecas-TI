@@ -1,0 +1,12 @@
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\obj\Debug\Controle de Peças T.I..csproj.AssemblyReference.cache
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\obj\Debug\Controle de Peças T.I..GeneratedMSBuildEditorConfig.editorconfig
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\obj\Debug\Controle de Peças T.I..AssemblyInfoInputs.cache
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\obj\Debug\Controle de Peças T.I..AssemblyInfo.cs
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\obj\Debug\Controle de Peças T.I..csproj.CoreCompileInputs.cache
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\bin\Debug\Controle de Peças T.I..dll
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\bin\Debug\Controle de Peças T.I..pdb
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\bin\Debug\IronXL.dll
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\bin\Debug\Newtonsoft.Json.dll
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\obj\Debug\Controle de Peças T.I..csproj.CopyComplete
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\obj\Debug\Controle de Peças T.I..dll
+E:\DEV\Projeto\Controle de Estoque TI\.mono\temp\obj\Debug\Controle de Peças T.I..pdb

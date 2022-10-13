@@ -1,0 +1,91 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Calendar",
+"language": "GDScript",
+"path": "res://addons/calendar_button/class/calendar.gd"
+}, {
+"base": "Reference",
+"class": "CalendarButtons",
+"language": "GDScript",
+"path": "res://addons/calendar_button/scripts/calendar_buttons.gd"
+}, {
+"base": "Reference",
+"class": "Date",
+"language": "GDScript",
+"path": "res://addons/calendar_button/class/Date.gd"
+}, {
+"base": "Reference",
+"class": "WindowRestrictor",
+"language": "GDScript",
+"path": "res://addons/calendar_button/scripts/window_restrictor.gd"
+} ]
+_global_script_class_icons={
+"Calendar": "",
+"CalendarButtons": "",
+"Date": "",
+"WindowRestrictor": ""
+}
+
+[application]
+
+config/name="Controle de Peças TI"
+run/main_scene="res://Menu.scn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Controle de Peças TI"
+run/low_processor_mode=true
+boot_splash/show_image=false
+boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
+config/icon="res://manutencao-de-pc.png"
+config/windows_native_icon="res://icon.ico"
+
+[autoload]
+
+Global="*res://Global.cs"
+Database="*res://Database.cs"
+CheckNConnection="res://scripts/CheckNConnection.cs"
+
+[display]
+
+window/size/resizable=false
+window/size/borderless=true
+window/vsync/use_vsync=false
+window/energy_saving/keep_screen_on=false
+mouse_cursor/tooltip_position_offset=Vector2( 10, 25 )
+
+[editor]
+
+convert_text_resources_to_binary_on_export=true
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/AutoExportVersion/plugin.cfg" )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+timers/tooltip_delay_sec=0.2
+
+[mono]
+
+runtime/unhandled_exception_policy=1
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://default_env.tres"

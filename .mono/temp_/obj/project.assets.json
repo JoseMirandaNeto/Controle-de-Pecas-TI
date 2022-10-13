@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "IronXL.Excel/2022.6.6825": {
+        "type": "package",
+        "compile": {
+          "lib/net45/IronXL.dll": {}
+        },
+        "runtime": {
+          "lib/net45/IronXL.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IronXL.Excel/2022.6.6825": {
+      "sha512": "mkOKo7qlKMqABMb0NN30n7B06s4g5+4KTtymjhj5KHtYiIfDLzp7Hw39z66jqd4r3PVE/t0BNTRXM+FIRVHWZQ==",
+      "type": "package",
+      "path": "ironxl.excel/2022.6.6825",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "docs/README.md",
+        "images/iron-logo-128.png",
+        "ironxl.excel.2022.6.6825.nupkg.sha512",
+        "ironxl.excel.nuspec",
+        "lib/net45/IronXL.dll",
+        "lib/net45/IronXL.dll.config",
+        "lib/net45/IronXL.xml",
+        "lib/netstandard2.0/IronXL.dll",
+        "lib/netstandard2.0/IronXL.dll.config",
+        "lib/netstandard2.0/IronXL.xml",
+        "readme-setup.txt",
+        "readme.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "IronXL.Excel >= 2022.6.6825",
+      "Newtonsoft.Json >= 13.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dodim\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\DEV\\Projeto\\Controle de Estoque TI\\Controle de Estoque.csproj",
+      "projectName": "Controle de Estoque",
+      "projectPath": "E:\\DEV\\Projeto\\Controle de Estoque TI\\Controle de Estoque.csproj",
+      "packagesPath": "C:\\Users\\dodim\\.nuget\\packages\\",
+      "outputPath": "E:\\DEV\\Projeto\\Controle de Estoque TI\\.mono\\temp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dodim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "IronXL.Excel": {
+            "target": "Package",
+            "version": "[2022.6.6825, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
